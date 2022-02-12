@@ -91,6 +91,19 @@ Partial Class _03
         Me.ProgressBar2 = New System.Windows.Forms.ProgressBar()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
+        Me.ProgressBar3 = New System.Windows.Forms.ProgressBar()
+        Me.PictureBox61 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox62 = New System.Windows.Forms.PictureBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Timer4 = New System.Windows.Forms.Timer(Me.components)
+        Me.ProgressBar4 = New System.Windows.Forms.ProgressBar()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Timer5 = New System.Windows.Forms.Timer(Me.components)
+        Me.ProgressBar5 = New System.Windows.Forms.ProgressBar()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Timer6 = New System.Windows.Forms.Timer(Me.components)
+        Me.ProgressBar6 = New System.Windows.Forms.ProgressBar()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -151,6 +164,8 @@ Partial Class _03
         CType(Me.PictureBox58, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox59, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox60, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox61, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox62, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
@@ -221,7 +236,7 @@ Partial Class _03
         'PictureBox10
         '
         Me.PictureBox10.BackColor = System.Drawing.Color.Goldenrod
-        Me.PictureBox10.Location = New System.Drawing.Point(-48, -3)
+        Me.PictureBox10.Location = New System.Drawing.Point(-40, -3)
         Me.PictureBox10.Name = "PictureBox10"
         Me.PictureBox10.Size = New System.Drawing.Size(892, 459)
         Me.PictureBox10.TabIndex = 10
@@ -230,7 +245,7 @@ Partial Class _03
         'PictureBox14
         '
         Me.PictureBox14.BackColor = System.Drawing.Color.Navy
-        Me.PictureBox14.Location = New System.Drawing.Point(271, 268)
+        Me.PictureBox14.Location = New System.Drawing.Point(249, 268)
         Me.PictureBox14.Name = "PictureBox14"
         Me.PictureBox14.Size = New System.Drawing.Size(239, 188)
         Me.PictureBox14.TabIndex = 14
@@ -747,13 +762,13 @@ Partial Class _03
         Me.Button1.BackColor = System.Drawing.Color.Blue
         Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button1.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Comic Sans MS", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(139, 543)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(160, 46)
         Me.Button1.TabIndex = 72
-        Me.Button1.Text = "This is for you."
+        Me.Button1.Text = "Would you like to have some?"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
@@ -764,10 +779,109 @@ Partial Class _03
         Me.Button2.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(328, 543)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(161, 46)
+        Me.Button2.Size = New System.Drawing.Size(160, 47)
         Me.Button2.TabIndex = 73
-        Me.Button2.Text = "Beer."
+        Me.Button2.Text = "(Say nothing)"
         Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Timer3
+        '
+        '
+        'ProgressBar3
+        '
+        Me.ProgressBar3.Location = New System.Drawing.Point(645, 279)
+        Me.ProgressBar3.Name = "ProgressBar3"
+        Me.ProgressBar3.Size = New System.Drawing.Size(8, 8)
+        Me.ProgressBar3.TabIndex = 74
+        Me.ProgressBar3.Visible = False
+        '
+        'PictureBox61
+        '
+        Me.PictureBox61.BackColor = System.Drawing.Color.Black
+        Me.PictureBox61.Location = New System.Drawing.Point(338, 121)
+        Me.PictureBox61.Name = "PictureBox61"
+        Me.PictureBox61.Size = New System.Drawing.Size(23, 10)
+        Me.PictureBox61.TabIndex = 75
+        Me.PictureBox61.TabStop = False
+        '
+        'PictureBox62
+        '
+        Me.PictureBox62.BackColor = System.Drawing.Color.Black
+        Me.PictureBox62.Location = New System.Drawing.Point(423, 121)
+        Me.PictureBox62.Name = "PictureBox62"
+        Me.PictureBox62.Size = New System.Drawing.Size(23, 10)
+        Me.PictureBox62.TabIndex = 76
+        Me.PictureBox62.TabStop = False
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(12, 436)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(13, 13)
+        Me.Label2.TabIndex = 77
+        Me.Label2.Text = "0"
+        Me.Label2.Visible = False
+        '
+        'Timer4
+        '
+        '
+        'ProgressBar4
+        '
+        Me.ProgressBar4.Location = New System.Drawing.Point(659, 279)
+        Me.ProgressBar4.Name = "ProgressBar4"
+        Me.ProgressBar4.Size = New System.Drawing.Size(8, 8)
+        Me.ProgressBar4.TabIndex = 78
+        Me.ProgressBar4.Visible = False
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.Yellow
+        Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button3.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Location = New System.Drawing.Point(227, 542)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(160, 47)
+        Me.Button3.TabIndex = 79
+        Me.Button3.Text = "(Bypass officer)"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'Timer5
+        '
+        '
+        'ProgressBar5
+        '
+        Me.ProgressBar5.Location = New System.Drawing.Point(673, 279)
+        Me.ProgressBar5.Name = "ProgressBar5"
+        Me.ProgressBar5.Size = New System.Drawing.Size(8, 8)
+        Me.ProgressBar5.TabIndex = 80
+        Me.ProgressBar5.Visible = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button4.Font = New System.Drawing.Font("Comic Sans MS", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.ForeColor = System.Drawing.Color.White
+        Me.Button4.Location = New System.Drawing.Point(227, 543)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(160, 46)
+        Me.Button4.TabIndex = 81
+        Me.Button4.Text = "I don't have one."
+        Me.Button4.UseVisualStyleBackColor = False
+        '
+        'Timer6
+        '
+        '
+        'ProgressBar6
+        '
+        Me.ProgressBar6.Location = New System.Drawing.Point(687, 279)
+        Me.ProgressBar6.Name = "ProgressBar6"
+        Me.ProgressBar6.Size = New System.Drawing.Size(8, 8)
+        Me.ProgressBar6.TabIndex = 82
+        Me.ProgressBar6.Visible = False
         '
         '_03
         '
@@ -775,6 +889,15 @@ Partial Class _03
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(834, 611)
+        Me.Controls.Add(Me.ProgressBar6)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.ProgressBar5)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.ProgressBar4)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.PictureBox62)
+        Me.Controls.Add(Me.PictureBox61)
+        Me.Controls.Add(Me.ProgressBar3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ProgressBar2)
@@ -841,11 +964,11 @@ Partial Class _03
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "_03"
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "s"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -906,6 +1029,8 @@ Partial Class _03
         CType(Me.PictureBox58, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox59, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox60, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox61, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox62, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -978,4 +1103,17 @@ Partial Class _03
     Friend WithEvents ProgressBar2 As System.Windows.Forms.ProgressBar
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Timer3 As System.Windows.Forms.Timer
+    Friend WithEvents ProgressBar3 As System.Windows.Forms.ProgressBar
+    Friend WithEvents PictureBox61 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox62 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Timer4 As System.Windows.Forms.Timer
+    Friend WithEvents ProgressBar4 As System.Windows.Forms.ProgressBar
+    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents Timer5 As System.Windows.Forms.Timer
+    Friend WithEvents ProgressBar5 As System.Windows.Forms.ProgressBar
+    Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents Timer6 As System.Windows.Forms.Timer
+    Friend WithEvents ProgressBar6 As System.Windows.Forms.ProgressBar
 End Class

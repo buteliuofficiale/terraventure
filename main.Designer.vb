@@ -31,7 +31,6 @@ Partial Class main
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -39,6 +38,7 @@ Partial Class main
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -54,7 +54,7 @@ Partial Class main
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(43, 13)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "v0.02-3"
+        Me.Label1.Text = "v0.02-4"
         '
         'Label2
         '
@@ -81,7 +81,7 @@ Partial Class main
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.MediumPurple
-        Me.PictureBox1.Location = New System.Drawing.Point(-17, -17)
+        Me.PictureBox1.Location = New System.Drawing.Point(-2, -3)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(378, 663)
         Me.PictureBox1.TabIndex = 8
@@ -110,21 +110,10 @@ Partial Class main
         Me.PictureBox2.TabIndex = 10
         Me.PictureBox2.TabStop = False
         '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.MediumPurple
-        Me.Label3.Font = New System.Drawing.Font("Comic Sans MS", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(91, 28)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(258, 30)
-        Me.Label3.TabIndex = 11
-        Me.Label3.Text = "Join our Discord server!"
-        '
         'PictureBox3
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.MediumSlateBlue
+        Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox3.Location = New System.Drawing.Point(467, 84)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(294, 90)
@@ -160,7 +149,8 @@ Partial Class main
         'PictureBox4
         '
         Me.PictureBox4.BackColor = System.Drawing.Color.MediumSlateBlue
-        Me.PictureBox4.Location = New System.Drawing.Point(467, 223)
+        Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox4.Location = New System.Drawing.Point(467, 222)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(294, 90)
         Me.PictureBox4.TabIndex = 14
@@ -182,11 +172,26 @@ Partial Class main
         'PictureBox5
         '
         Me.PictureBox5.BackColor = System.Drawing.Color.MediumSlateBlue
+        Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox5.Location = New System.Drawing.Point(467, 380)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(294, 90)
         Me.PictureBox5.TabIndex = 16
         Me.PictureBox5.TabStop = False
+        '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.BackColor = System.Drawing.Color.MediumPurple
+        Me.LinkLabel1.Font = New System.Drawing.Font("Comic Sans MS", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel1.ForeColor = System.Drawing.Color.White
+        Me.LinkLabel1.LinkColor = System.Drawing.Color.White
+        Me.LinkLabel1.Location = New System.Drawing.Point(91, 31)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(258, 30)
+        Me.LinkLabel1.TabIndex = 18
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "Join our Discord server!"
         '
         'main
         '
@@ -194,13 +199,13 @@ Partial Class main
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(844, 621)
+        Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.PictureBox3)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.WebBrowser1)
         Me.Controls.Add(Me.PictureBox1)
@@ -209,12 +214,11 @@ Partial Class main
         Me.Controls.Add(Me.Label1)
         Me.Cursor = System.Windows.Forms.Cursors.No
         Me.DoubleBuffered = True
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "main"
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "vbgame // by aragazbutelie"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -231,7 +235,6 @@ Partial Class main
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents WebBrowser1 As System.Windows.Forms.WebBrowser
     Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
-    Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Timer2 As System.Windows.Forms.Timer
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
@@ -239,5 +242,6 @@ Partial Class main
     Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
+    Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
 
 End Class

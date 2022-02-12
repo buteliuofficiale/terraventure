@@ -24,10 +24,10 @@
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
         ProgressBar1.Increment(1)
         If ProgressBar1.Value = 2 Then
-            Label3.ForeColor = Color.Yellow
+            LinkLabel1.LinkColor = Color.Yellow
         End If
         If ProgressBar1.Value = 4 Then
-            Label3.ForeColor = Color.White
+            LinkLabel1.LinkColor = Color.White
         End If
         If ProgressBar1.Value = 6 Then
             ProgressBar1.Value = 1
@@ -49,5 +49,9 @@
     Private Sub Label4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label4.Click
         Me.Hide()
         _01.Show()
+    End Sub
+
+    Private Sub LinkLabel1_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        System.Diagnostics.Process.Start("https://discord.gg/GUJgH8er")
     End Sub
 End Class

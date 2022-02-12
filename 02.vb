@@ -47,10 +47,12 @@
     End Sub
 
     Private Sub PictureBox74_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox74.Click
+        Me.Hide()
         _03.Show()
     End Sub
 
     Private Sub PictureBox73_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox73.Click
+        Me.Hide()
         _03.Show()
     End Sub
 End Class
