@@ -11,7 +11,7 @@
 <tr style="height: 20px;">
 <td style="height: 20px; width: 244.417px;">Operating system</td>
 <td style="height: 20px; width: 318.017px;">Version(s)</td>
-<td style="height: 20px; width: 44.4667px;">Default</td>
+<td style="height: 20px; width: 44.4667px;">Works?</td>
 </tr>
 </thead>
 <tbody>
@@ -77,7 +77,7 @@
 </tr>
 <tr style="height: 22px;">
 <td style="height: 22px; width: 244.417px;">&nbsp;</td>
-<td style="height: 22px; width: 318.017px;"><!-- HELLO! --></td>
+<td style="height: 22px; width: 318.017px;"></td>
 <td style="height: 22px; width: 44.4667px;">&nbsp;</td>
 </tr>
 <tr style="height: 26px;">
