@@ -99,9 +99,9 @@ Partial Class _02
         Me.PictureBox28 = New System.Windows.Forms.PictureBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
+        Me.PictureBox75 = New System.Windows.Forms.PictureBox()
         Me.PictureBox73 = New System.Windows.Forms.PictureBox()
         Me.PictureBox74 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox75 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -174,9 +174,9 @@ Partial Class _02
         CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox75, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox73, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox74, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox75, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
@@ -848,35 +848,35 @@ Partial Class _02
         Me.ProgressBar1.TabIndex = 78
         Me.ProgressBar1.Visible = False
         '
+        'PictureBox75
+        '
+        Me.PictureBox75.BackColor = System.Drawing.Color.Blue
+        Me.PictureBox75.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox75.Location = New System.Drawing.Point(193, 232)
+        Me.PictureBox75.Name = "PictureBox75"
+        Me.PictureBox75.Size = New System.Drawing.Size(29, 94)
+        Me.PictureBox75.TabIndex = 81
+        Me.PictureBox75.TabStop = False
+        '
         'PictureBox73
         '
-        Me.PictureBox73.BackColor = System.Drawing.Color.Blue
+        Me.PictureBox73.BackColor = System.Drawing.Color.Red
         Me.PictureBox73.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox73.Location = New System.Drawing.Point(194, 232)
+        Me.PictureBox73.Location = New System.Drawing.Point(261, 232)
         Me.PictureBox73.Name = "PictureBox73"
-        Me.PictureBox73.Size = New System.Drawing.Size(38, 93)
-        Me.PictureBox73.TabIndex = 79
+        Me.PictureBox73.Size = New System.Drawing.Size(30, 94)
+        Me.PictureBox73.TabIndex = 82
         Me.PictureBox73.TabStop = False
         '
         'PictureBox74
         '
         Me.PictureBox74.BackColor = System.Drawing.Color.Yellow
         Me.PictureBox74.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox74.Location = New System.Drawing.Point(223, 232)
+        Me.PictureBox74.Location = New System.Drawing.Point(222, 232)
         Me.PictureBox74.Name = "PictureBox74"
-        Me.PictureBox74.Size = New System.Drawing.Size(54, 93)
-        Me.PictureBox74.TabIndex = 80
+        Me.PictureBox74.Size = New System.Drawing.Size(39, 94)
+        Me.PictureBox74.TabIndex = 83
         Me.PictureBox74.TabStop = False
-        '
-        'PictureBox75
-        '
-        Me.PictureBox75.BackColor = System.Drawing.Color.Red
-        Me.PictureBox75.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox75.Location = New System.Drawing.Point(250, 231)
-        Me.PictureBox75.Name = "PictureBox75"
-        Me.PictureBox75.Size = New System.Drawing.Size(41, 94)
-        Me.PictureBox75.TabIndex = 81
-        Me.PictureBox75.TabStop = False
         '
         '_02
         '
@@ -884,9 +884,9 @@ Partial Class _02
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(834, 611)
-        Me.Controls.Add(Me.PictureBox75)
         Me.Controls.Add(Me.PictureBox74)
         Me.Controls.Add(Me.PictureBox73)
+        Me.Controls.Add(Me.PictureBox75)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.PictureBox28)
         Me.Controls.Add(Me.PictureBox27)
@@ -1041,9 +1041,9 @@ Partial Class _02
         CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox75, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox73, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox74, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox75, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1124,7 +1124,7 @@ Partial Class _02
     Friend WithEvents PictureBox28 As System.Windows.Forms.PictureBox
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
     Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
+    Friend WithEvents PictureBox75 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox73 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox74 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox75 As System.Windows.Forms.PictureBox
 End Class

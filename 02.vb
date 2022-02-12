@@ -36,13 +36,21 @@
         _03.Show()
     End Sub
 
-    Private Sub PictureBox74_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox74.Click
+    Private Sub PictureBox74_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Me.Hide()
         _03.Show()
     End Sub
 
-    Private Sub PictureBox73_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox73.Click
+    Private Sub PictureBox73_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Me.Hide()
+        _03.Show()
+    End Sub
+
+    Private Sub PictureBox74_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox74.Click
+        _03.Show()
+    End Sub
+
+    Private Sub PictureBox73_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox73.Click
         _03.Show()
     End Sub
 End Class
