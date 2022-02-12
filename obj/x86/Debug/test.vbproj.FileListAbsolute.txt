@@ -1,23 +1,17 @@
-C:\Users\dev\AppData\Local\Temporary Projects\test\bin\Debug\test.exe
-C:\Users\dev\AppData\Local\Temporary Projects\test\bin\Debug\test.pdb
-C:\Users\dev\AppData\Local\Temporary Projects\test\bin\Debug\test.xml
-C:\Users\dev\AppData\Local\Temporary Projects\test\obj\x86\Debug\test.main.resources
-C:\Users\dev\AppData\Local\Temporary Projects\test\obj\x86\Debug\test.Resources.resources
-C:\Users\dev\AppData\Local\Temporary Projects\test\obj\x86\Debug\test.vbproj.GenerateResource.Cache
-C:\Users\dev\AppData\Local\Temporary Projects\test\obj\x86\Debug\test.exe
-C:\Users\dev\AppData\Local\Temporary Projects\test\obj\x86\Debug\test.xml
-C:\Users\dev\AppData\Local\Temporary Projects\test\obj\x86\Debug\test.pdb
 C:\Users\dev\documents\visual studio 2010\Projects\test\test\obj\x86\Debug\test.exe
 C:\Users\dev\documents\visual studio 2010\Projects\test\test\obj\x86\Debug\test.xml
 C:\Users\dev\documents\visual studio 2010\Projects\test\test\obj\x86\Debug\test.pdb
 C:\Users\dev\documents\visual studio 2010\Projects\test\test\bin\Debug\test.exe
-C:\Users\dev\documents\visual studio 2010\Projects\test\test\bin\Debug\test.pdb
-C:\Users\dev\documents\visual studio 2010\Projects\test\test\bin\Debug\test.xml
+C:\Users\dev\documents\visual studio 2010\Projects\test\test\obj\x86\Debug\test._01.resources
+C:\Users\dev\documents\visual studio 2010\Projects\test\test\obj\x86\Debug\test._02.resources
+C:\Users\dev\documents\visual studio 2010\Projects\test\test\obj\x86\Debug\test._03.resources
+C:\Users\dev\documents\visual studio 2010\Projects\test\test\obj\x86\Debug\test._04.resources
+C:\Users\dev\documents\visual studio 2010\Projects\test\test\obj\x86\Debug\test._05.resources
+C:\Users\dev\documents\visual studio 2010\Projects\test\test\obj\x86\Debug\test._06.resources
+C:\Users\dev\documents\visual studio 2010\Projects\test\test\obj\x86\Debug\test.gameover_03.resources
 C:\Users\dev\documents\visual studio 2010\Projects\test\test\obj\x86\Debug\test.main.resources
 C:\Users\dev\documents\visual studio 2010\Projects\test\test\obj\x86\Debug\test.Resources.resources
 C:\Users\dev\documents\visual studio 2010\Projects\test\test\obj\x86\Debug\test.vbproj.GenerateResource.Cache
-C:\Users\dev\documents\visual studio 2010\Projects\test\test\obj\x86\Debug\test._01.resources
-C:\Users\dev\Documents\Visual Studio 2010\Projects\test\test\obj\x86\Debug\test._02.resources
-C:\Users\dev\Documents\Visual Studio 2010\Projects\test\test\obj\x86\Debug\test._03.resources
-C:\Users\dev\documents\visual studio 2010\Projects\test\test\obj\x86\Debug\test._04.resources
-C:\Users\dev\documents\visual studio 2010\Projects\test\test\obj\x86\Debug\test.gameover_03.resources
+C:\Users\dev\documents\visual studio 2010\Projects\test\test\bin\Debug\test.pdb
+C:\Users\dev\documents\visual studio 2010\Projects\test\test\bin\Debug\test.xml
+C:\Users\dev\Documents\Visual Studio 2010\Projects\test\test\obj\x86\Debug\test._01_exp.resources

@@ -99,6 +99,12 @@
     <Compile Include="01.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="01_exp.Designer.vb">
+      <DependentUpon>01_exp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01_exp.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="02.Designer.vb">
       <DependentUpon>02.vb</DependentUpon>
     </Compile>
@@ -115,6 +121,18 @@
       <DependentUpon>04.vb</DependentUpon>
     </Compile>
     <Compile Include="04.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05.Designer.vb">
+      <DependentUpon>05.vb</DependentUpon>
+    </Compile>
+    <Compile Include="05.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="06.Designer.vb">
+      <DependentUpon>06.vb</DependentUpon>
+    </Compile>
+    <Compile Include="06.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="gameover_03.Designer.vb">
@@ -150,6 +168,9 @@
     <EmbeddedResource Include="01.resx">
       <DependentUpon>01.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="01_exp.resx">
+      <DependentUpon>01_exp.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="02.resx">
       <DependentUpon>02.vb</DependentUpon>
     </EmbeddedResource>
@@ -158,6 +179,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="04.resx">
       <DependentUpon>04.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05.resx">
+      <DependentUpon>05.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06.resx">
+      <DependentUpon>06.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="gameover_03.resx">
       <DependentUpon>gameover_03.vb</DependentUpon>
