@@ -32,7 +32,7 @@
 </tr>
 <tr style="height: 21px;">
 <td style="height: 21px; width: 244.417px;">ReactOS</td>
-<td style="height: 21px; width: 318.017px;">0.14.x</td>
+<td style="height: 21px; width: 318.017px;">0.4.15</td>
 <td style="height: 21px; width: 44.4667px;">?</td>
 </tr>
 <tr style="height: 22px;">
